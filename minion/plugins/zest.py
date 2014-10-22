@@ -7,7 +7,7 @@ import json
 import os
 import tempfile
 
-from minion.plugin_api import ExternalProcessPlugin
+from minion.plugins.base import ExternalProcessPlugin
 
 
 class ZestPlugin(ExternalProcessPlugin):
